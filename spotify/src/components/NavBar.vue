@@ -46,28 +46,28 @@
           <ul
             class="list-style-none ml-auto flex flex-col pl-0 lg:flex-row"
             data-te-navbar-nav-ref>
-            <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <li class="mb-4 lg:mb-0 lg:pr-2 nav-text" data-te-nav-item-ref>
               <!-- Dashboard link -->
               <a
-                class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-zinc-400 text-lg font-bold"
+                class="text-white lg:px-2 text-lg font-bold"
                 href="#"
                 data-te-nav-link-ref
                 >Premium</a
               >
             </li>
             <!-- Team link -->
-            <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <li class="mb-4 lg:mb-0 lg:pr-2 nav-text" data-te-nav-item-ref>
               <a
-                class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400 text-lg font-bold"
+                class="text-white lg:px-2 text-lg font-bold"
                 href="#"
                 data-te-nav-link-ref
                 >FAQ</a
               >
             </li>
             <!-- Projects link -->
-            <li class="mb-4 lg:mb-0 lg:pr-2" data-te-nav-item-ref>
+            <li class="mb-4 lg:mb-0 lg:pr-2 nav-text" data-te-nav-item-ref>
               <a
-                class="text-neutral-500 transition duration-200 hover:text-neutral-700 hover:ease-in-out focus:text-neutral-700 disabled:text-black/30 motion-reduce:transition-none dark:text-neutral-200 dark:hover:text-neutral-300 dark:focus:text-neutral-300 lg:px-2 [&.active]:text-black/90 dark:[&.active]:text-neutral-400 text-lg font-bold"
+                class="text-white lg:px-2 text-lg font-bold"
                 href="#"
                 data-te-nav-link-ref
                 >Baixar</a
@@ -84,3 +84,8 @@
         
     }
 </script>
+<style scoped>
+  .nav-text a:hover {
+    color: rgb(147 51 234 / var(--tw-text-opacity));
+  }
+</style>
