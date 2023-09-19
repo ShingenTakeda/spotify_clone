@@ -2,17 +2,6 @@
   <div class="flex flex-col min-h-screen">
     <NavBar/>
     <RouterView />
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <Footer/>
   </div>
 </template>
