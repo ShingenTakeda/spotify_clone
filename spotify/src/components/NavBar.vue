@@ -35,7 +35,7 @@
           <!-- Logo -->
           <a
             class="mb-4 ml-2 mr-5 mt-3 flex items-center text-neutral-900 hover:text-neutral-900 focus:text-neutral-900 dark:text-neutral-200 dark:hover:text-neutral-400 dark:focus:text-neutral-400 lg:pl-10 lg:mb-0 lg:mt-0"
-            href="#">
+            href="/">
             <img
               src="../assets/logos/logospotifyBranca.png"
               style="height: 42px"
@@ -59,7 +59,7 @@
             <li class="mb-4 lg:mb-0 lg:pr-2 nav-text" data-te-nav-item-ref>
               <a
                 class="text-white lg:px-2 text-lg font-bold"
-                href="#"
+                href="/faq"
                 data-te-nav-link-ref
                 >FAQ</a
               >
