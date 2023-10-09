@@ -1,7 +1,7 @@
 <script>
     export default {}
 </script>
-
+class="relative overflow-x-auto"
 <template>
   <div class="max-w-sm w-full lg:max-w-full lg:flex">
 
@@ -13,7 +13,7 @@
         </div>
         
         <div class="flex items-center">
-            <button class="bg-zinc-100 hover:bg-blue-700 text-black font-bold py-2 px-4 rounded-full items-center">
+            <button class="bg-zinc-100 hover:scale-110 text-black font-bold py-2 px-4 rounded-full items-center">
                 Button
             </button>
         </div>
