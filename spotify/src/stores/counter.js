@@ -10,3 +10,7 @@ export const useCounterStore = defineStore('counter', () => {
 
   return { count, doubleCount, increment }
 })
+
+//export currentPlaylist = defineStore()
+//export currentSong  = defineStore()
+//export playlistToView = defineStore()
