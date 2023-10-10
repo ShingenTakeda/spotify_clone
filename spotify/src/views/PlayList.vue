@@ -1,8 +1,8 @@
 <script setup>
-//import { reactive } from 'vue';
+import { reactive } from 'vue';
 import SideBar from '../components/SideBar.vue';
 
-//const samuel_music = reactive({titulo: "samuel", album:"samuel", genero:"funk"})
+const samuel_music = reactive({titulo: "samuel", album:"samuel", adicionado: "20/02/20",genero:"funk"})
 </script>
 
 <template>
@@ -33,18 +33,18 @@ import SideBar from '../components/SideBar.vue';
             </tr>
         </thead>
         <tbody>
-            <tr class="bg-white dark:bg-black">
+            <tr  v-for="n in 10" class="bg-white dark:bg-black">
                 <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                    Apple MacBook Pro 17"
+                    {{ samuel_music.titulo }}
                 </th>
                 <td class="px-6 py-4">
-                    Silver
+                    {{ samuel_music.album }}
                 </td>
                 <td class="px-6 py-4">
-                    Laptop
+                    {{ samuel_music.adicionado }}
                 </td>
                 <td class="px-6 py-4">
-                    $2999
+                   {{ samuel_music.genero }}
                 </td>
             </tr>
             <tr class="bg-white dark:bg-black">
