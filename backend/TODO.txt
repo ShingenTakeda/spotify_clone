@@ -1,0 +1,4 @@
+[]Criar schema de usuarios e playlists
+[X]Conectar com mysql
+[]Conectar com o site
+[]Criar API simples para acesso
